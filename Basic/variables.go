@@ -1,7 +1,9 @@
 package main
-
 import "fmt"
-
 func main() {
-	fmt.Print(1)
+	var a = 1
+	var a,c,
+
+	fmt.Println((a))
+
 }
