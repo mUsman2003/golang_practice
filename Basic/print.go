@@ -1,15 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
 func main() {
-
-	fmt.Println("Hello" + "Usman")
-
-	fmt.Println("1+1 =", 1+1)
-	fmt.Println("7.0/3.0 =", 7.0/3.0)
-
-	fmt.Println(true && false)
-	fmt.Println(true || false)
-	fmt.Println(!true)
+	var newvar string
+	fmt.Println(newvar)
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Println("write somthing")
+	input, _ := reader.ReadString('\n')
+	fmt.Println("input", input)
 }

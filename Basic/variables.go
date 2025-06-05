@@ -2,10 +2,11 @@ package main
 
 import "fmt"
 
+const s string = "constant"
+
 func main() {
-	var a = 1
-	f := "hello"
-	println(f)
-	fmt.Println((a))
+	fmt.Println(s)
+	const n = 1000000000
+	println(n)
 
 }
